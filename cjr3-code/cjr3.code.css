@@ -1,0 +1,31 @@
+.cjr3-code
+{
+    width: 100%;
+    overflow: scroll;
+    padding: 16px;
+    counter-reset: line;
+    max-height: 300px;
+}
+
+@media screen and (min-width: 901px)
+{
+    .cjr3-code {
+        max-height: 640px;
+    }
+}
+
+.cjr3-code > span {
+    font-family: monospace;
+    white-space: pre;
+    display: block;
+}
+
+.cjr3-code > span:before {
+    counter-increment: line;
+    content: counter(line);
+    display: inline-block;
+    padding: 0 0.5em;
+    margin-right: 0.5em;
+    min-width: 24px;
+    text-align: right;
+}
