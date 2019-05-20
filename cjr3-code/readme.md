@@ -18,6 +18,6 @@ Notes:
 
 Markup output is:
 &lt;div class="cjr3-code"&gt;
-    &lt;span&gt;var something = 1;*lt;/spangt;
+    &lt;span&gt;var something = 1;&lt;/span&gt;
     &lt;span&gt;var somethingElse = 2;&lt;/span&gt;
 &lt;/div&gt;
