@@ -10,7 +10,7 @@
  * Sample usage:
  * 
  * var query = new Query();
- * query.addTable('c', 'customers')
+ * query.addTable('commerce', 'customers', 'c')
  *   .addField('c','ID')
  *   .addField('c','FirstName')
  *   .addField('c",'LastName')
@@ -27,7 +27,7 @@
  * var jane = {'FirstName':'Jane', 'LastName':'Doe'};
  * 
  * var tx = new Transaction();
- * tx.setTable('c', 'customers')
+ * tx.setTable('commerce', 'customers')
  *    .addColumn('FirstName')
  *    .addColumn('LastName')
  *    .addRecord(john)
