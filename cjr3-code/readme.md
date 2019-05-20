@@ -17,7 +17,7 @@ Notes:
 - Modifies the content of shortcode into span elements, where each new line (paragraph, heading, etc.) is a new line of code.
 
 Markup output is:
-<div class="cjr3-code">
-    <span>var something = 1;</span>
-    <span>var somethingElse = 2;</span>
-</div>
+&lt;div class="cjr3-code"&gt;
+    &lt;span&gt;var something = 1;*lt;/spangt;
+    &lt;span&gt;var somethingElse = 2;&lt;/span&gt;
+&lt;/div&gt;
